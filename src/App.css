@@ -325,6 +325,7 @@ body {
     "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 
+  border: 3px dashed black;
   /* background-image: linear-gradient(
     to top,
     #ff9a9e 0%,
@@ -685,6 +686,8 @@ body {
   ); */
 
   background-image: linear-gradient(to top, white 0%, white 99%, white 100%);
+
+  /* border: 3px dashed black; */
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
