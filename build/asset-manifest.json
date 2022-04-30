@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33ac6812.chunk.css",
+    "main.js": "/static/js/main.eac8fd76.chunk.js",
+    "main.js.map": "/static/js/main.eac8fd76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c3808eae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c3808eae.js.map",
+    "static/js/2.b04883f1.chunk.js": "/static/js/2.b04883f1.chunk.js",
+    "static/js/2.b04883f1.chunk.js.map": "/static/js/2.b04883f1.chunk.js.map",
+    "static/js/3.e3cab27b.chunk.js": "/static/js/3.e3cab27b.chunk.js",
+    "static/js/3.e3cab27b.chunk.js.map": "/static/js/3.e3cab27b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.33ac6812.chunk.css.map": "/static/css/main.33ac6812.chunk.css.map",
+    "static/js/2.b04883f1.chunk.js.LICENSE.txt": "/static/js/2.b04883f1.chunk.js.LICENSE.txt",
+    "static/media/okayowls_wo.f34a1128.gif": "/static/media/okayowls_wo.f34a1128.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3808eae.js",
+    "static/js/2.b04883f1.chunk.js",
+    "static/css/main.33ac6812.chunk.css",
+    "static/js/main.eac8fd76.chunk.js"
+  ]
+}

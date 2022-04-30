@@ -1,0 +1,733 @@
+#hold {
+  width: 100%;
+  margin: 0px auto;
+}
+.innerHold {
+  float: left;
+  width: 49.93333%;
+  /* make sure left/right margins or left/right padding are 0px here
+            - it'll mess with the width otherwise*/
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.inner {
+  /* Here set your columns padding, borders, and margin 
+            - or in the class names as I do below */
+  margin: 0px;
+}
+
+.col2 {
+  /* margin-top: 200px; */
+  margin-right: 0px;
+}
+.clear {
+  clear: both;
+}
+
+.App {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.eye {
+  font-size: 25px;
+}
+
+.backgroundPaper {
+  /* background: linear-gradient(180deg, #040404 0%, #656565 100%); */
+  /* background: black; */
+  background-image: linear-gradient(to top, #ffb900 0%, #ffb900 100%);
+  /* background-image: url("dust2.gif"); */
+  /* background-repeat: no-repeat; */
+}
+
+.mainHomeBlock {
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4%; */
+
+  width: 100%;
+  /* background-image: url("degoddess.png"); */
+  /* background-image: linear-gradient(to right, white 0%, yellow 100%); */
+  background-repeat: no-repeat;
+  background-size: 1000px 750px;
+}
+
+.degoddessImage {
+  width: 105%;
+  height: 105%;
+  /* object-fit: cover; */
+}
+
+.gifBlock {
+  /* flex: 30%; */
+  /* width: 250%; */
+  /* background-color: gold; */
+  /* align-items: center; */
+  /* padding-left: 15%; */
+  /* margin-left: 10%; */
+  /* flex-direction: row; */
+}
+
+.cubeGif {
+  /* padding-right: 4%; */
+  /* margin-right: 3%; */
+  width: 70%;
+  /* background: linear-gradient(45deg, #040404 0%, #656565 900%); */
+  background: linear-gradient(195deg, #b38728 0%, #fbf5b7 100%);
+  border: 30px solid pink;
+}
+
+.mintTextBlock {
+  /* padding: 4%; */
+  /* background-color: #4968ad; */
+  text-align: center;
+  flex-direction: row;
+}
+
+.sampleDiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 6%;
+}
+
+.mintButtton {
+  background: linear-gradient(50.4deg, #4c4c4c, #4c4c4c);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: black;
+  color: rgb(126, 122, 122);
+  /* border-bottom: solid black 2px; */
+  font-family: "Helvetica", "Comic Sans MS", "Lucida Console", "Courier New",
+    "monospace";
+  /* position: sticky; */
+  /* z-index: 100; */
+}
+
+.connectWalletButtonNav {
+  flex-direction: row;
+  margin-left: 55%;
+  /* flex-direction: row-reverse; */
+}
+
+.gradientClass {
+  /* background: linear-gradient(50.4deg, #4c4c4c, #4c4c4c); */
+  /* background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%); */
+  /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
+  /* background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); */
+  /* background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  ); */
+
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: 5%;
+}
+
+.footerMainDiv {
+  padding-top: 4%;
+  padding-bottom: 10%;
+  /* display: flex; */
+  align-items: center;
+  /* margin-top: 30px; */
+  background: yellow;
+  /* background: linear-gradient(180deg, #040404 0%, #656565 100%);  */
+
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+body {
+  font-family: "Helvetica", "Georgia", "Comic Sans MS", "Lucida Console",
+    "Courier New", "monospace";
+}
+
+#liContent {
+  color: white;
+  text-decoration: none;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: large;
+}
+
+.revealText {
+  align-self: center;
+}
+
+.imageHolder {
+  width: 100%;
+  padding-top: 1%;
+}
+
+.imageHolder2 {
+  width: 100%;
+  padding-top: 2%;
+  align-content: center;
+}
+
+.displayDiv {
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+}
+
+.reducedSampleImage {
+  width: 19%;
+  margin-left: 1%;
+  border-radius: 7px;
+}
+
+.reducedSampleImage2 {
+  width: 95%;
+  margin-left: 3%;
+  border-radius: 15px;
+}
+
+.textHolder {
+  /* padding-left: 30%; */
+  text-align: center;
+  /* padding-bottom: 2%; */
+}
+
+.gradTextFancyFontGreySmall {
+  font-size: 20px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#4c4c4c, #4c4c4c);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontGrey {
+  font-size: 30px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#4c4c4c, #4c4c4c); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.centergoddess {
+  position: relative;
+  align-items: center;
+  padding-left: 200px;
+}
+.crossed-line {
+  text-decoration: line-through;
+}
+.gradTextFancyFontPinkHugeHugeText {
+  /* padding: 5%; */
+  font-size: 200px;
+  font-family: "Moo Lah Lah", "VT323", "Great Vibes", "Comic Sans MS",
+    "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#4c4c4c, #4c4c4c); */
+  /* background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%); */
+  /* background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  ); */
+  background-image: linear-gradient(to right, black 0%, black 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPinkHugeText {
+  /* padding: 5%; */
+  font-size: 30px;
+  font-family: "VT323", "Great Vibes", "Comic Sans MS", "Helvetica", "Gill Sans",
+    "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#4c4c4c, #4c4c4c); */
+  /* background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%); */
+  /* background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  ); */
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPink {
+  font-size: 80px;
+  font-family: "Tangerine", "Great Vibes", "Comic Sans MS", "Helvetica",
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPinkQW {
+  font-size: 50px;
+  font-family: "Oswald", "Bangers", "Great Vibes", "Comic Sans MS", "Helvetica",
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  background-image: linear-gradient(to top, white 0%, white 99%, white 100%);
+
+  /* background-image: white; */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPinkBig {
+  font-size: 120px;
+  font-family: "Oswald", "teko", "Great Vibes", "Comic Sans MS", "Helvetica",
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  /* background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  ); */
+
+  background-image: linear-gradient(to top, white 0%, white 99%, white 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPinkDiffSmalli {
+  font-size: 30px;
+  font-family: "Oswald", "Bangers", "Great Vibes", "Comic Sans MS", "Helvetica",
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  background-image: linear-gradient(to top, white 0%, white 99%, white 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPinkDiff {
+  font-size: 80px;
+  font-family: "Bangers", "Great Vibes", "Comic Sans MS", "Helvetica",
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontPinkDiffSmall {
+  font-size: 50px;
+  font-family: "Bangers", "Great Vibes", "Comic Sans MS", "Helvetica",
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.pop {
+  /* background-color: #fbf5b7; */
+}
+.hugeText {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.mintClass {
+  width: 20%;
+  display: inline;
+}
+
+.imageClass {
+  width: 50%;
+  display: inline;
+}
+
+.gradTextFancyFontGreySmally {
+  font-size: 20px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(90deg, #70706f 0%, #bec0c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.gradTextFancyFontGreyRoll {
+  font-size: 20px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(90deg, white 0%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontGreyRevealing {
+  font-size: 30px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#c0c0c0, #c0c0c0); */
+  /* background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%); */
+  /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontGreyRevealingTwitter {
+  margin-left: 12%;
+  font-size: 30px;
+  font-family: "Comic Sans MS", "Helvetica", "Gill Sans", "Gill Sans MT",
+    Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#c0c0c0, #c0c0c0); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontGreyConnect {
+  font-size: 20px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#c0c0c0, #c0c0c0); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontGreyMintInfo {
+  font-size: 20px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#c0c0c0, #c0c0c0); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-align: center; */
+}
+
+.gradTextFancyFontWhiteGON {
+  font-size: 30px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#c0c0c0, #c0c0c0); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontGreyGON {
+  font-size: 20px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#c0c0c0, #c0c0c0); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontNavy {
+  font-size: 30px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(navy, navy);
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  text-align: center;
+}
+.gradTextFancyFontPinkFooter {
+  font-size: 30px;
+  font-family: "Oswald", "Bangers", "Helvetica", "Gill Sans", "Gill Sans MT",
+    Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  /* background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%); */
+  /* background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  ); */
+
+  /* background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  ); */
+
+  background-image: linear-gradient(to top, white 0%, white 99%, white 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.gradTextFancyFontWhiteFooter2 {
+  font-size: 18px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  /* background: linear-gradient(180deg, #c0c0c0 0%, #c0c0c0 100%); */
+  background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.diceFont {
+  font-size: 30px;
+}
+.gradTextFancyFontGreyBig {
+  font-size: 50px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(#70706f 0%, #bec0c2 100%); */
+  /* background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  ); */
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  /* background: -webkit-linear-gradient(#4c4c4c, #4c4c4c); */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-align: center; */
+}
+.gradTextFancyFontWhiteBig {
+  font-size: 50px;
+  font-family: "Helvetica", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-align: center; */
+}
+
+.gradTextFancyFontWhite {
+  font-size: 90px;
+  font-family: "Bangers", "Cursive", "Courier New", Courier, monospace;
+  /* font-family: "Comic sans", "Helvetica", "Comic sans", "Gill Sans",
+    "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; */
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  /* background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%); */
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontWhiteBlue {
+  font-size: 90px;
+  font-family: "Bangers", "Cursive", "Courier New", Courier, monospace;
+  /* font-family: "Comic sans", "Helvetica", "Comic sans", "Gill Sans",
+    "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; */
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  /* background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%); */
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontWhiteSmall {
+  font-size: 30px;
+  font-family: "Teko", "Cursive", "Courier New", Courier, monospace;
+  /* font-family: "Comic sans", "Helvetica", "Comic sans", "Gill Sans",
+    "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; */
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  /* background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%); */
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.gradTextFancyFontWhiteSmalli {
+  font-size: 50px;
+  font-family: "Oswald", "Teko", "Cursive", "Courier New", Courier, monospace;
+  /* font-family: "Comic sans", "Helvetica", "Comic sans", "Gill Sans",
+    "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; */
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(gold, gold); */
+  /* background: linear-gradient(180deg, #b38728 0%, #fbf5b7 100%); */
+  /* background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  ); */
+
+  background-image: linear-gradient(to top, white 0%, white 99%, white 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.navbarLogo {
+  padding-top: 1%;
+  padding-left: 2%;
+}
+.navBarItems {
+  /* background: linear-gradient(45deg, #040404 0%, #656565 300%); */
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  /* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
+  /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+  background-image: linear-gradient(to top, black 0%, black 100%);
+}
+
+.footerDiv {
+  /* background: linear-gradient(180deg, #040404 0%, #656565 300%); */
+  background-image: linear-gradient(to top, black 0%, black 100%);
+
+  /* padding-top: 7%; */
+  /* margin-top: 7%; */
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
+
+.copyright {
+  /* justify-content: center; */
+  /* padding: 5%; */
+  /* align-self: center; */
+  text-decoration-color: linear-gradient(180deg, #040404 0%, #656565 300%);
+
+  padding-top: 2%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.twitter {
+  size: 10;
+}
+
+.discord {
+}
