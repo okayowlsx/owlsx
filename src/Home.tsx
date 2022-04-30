@@ -198,7 +198,7 @@ const Home = (props: HomeProps) => {
           </h2>
 
           <h2 className="gradTextFancyFontPinkDiffSmalli">
-            <i>Mint price increasing at 2000 OWLS</i>
+            <i>Mint price increasing at 4000 OWLS</i>
           </h2>
 
           {/* <h2 className="gradTextFancyFontPinkDiffSmall">Coming Soon </h2> */}
