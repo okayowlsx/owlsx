@@ -197,13 +197,17 @@ const Home = (props: HomeProps) => {
             <i>We're OKAY 👌</i>
           </h2>
 
+          {/* <h2 className="gradTextFancyFontPinkDiffSmalli">
+            <i>Mint price increasing at 2000 OWLS</i>
+          </h2> */}
+
           <h2 className="gradTextFancyFontPinkDiffSmalli">
-            <i>Mint price increasing at 4000 OWLS</i>
+            <i>Mint delayed due to solana TPS</i>
           </h2>
 
           {/* <h2 className="gradTextFancyFontPinkDiffSmall">Coming Soon </h2> */}
 
-          <Container maxWidth="xs">
+          {/* <Container maxWidth="xs">
             <Paper
               style={{
                 padding: 24,
@@ -252,7 +256,7 @@ const Home = (props: HomeProps) => {
                 </>
               )}
             </Paper>
-          </Container>
+          </Container> */}
         </div>
       </div>
 
