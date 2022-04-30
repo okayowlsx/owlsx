@@ -197,6 +197,10 @@ const Home = (props: HomeProps) => {
             <i>We're OKAY 👌</i>
           </h2>
 
+          <h2 className="gradTextFancyFontPinkDiffSmalli">
+            <i>Mint price increasing at 2000 OWLS</i>
+          </h2>
+
           {/* <h2 className="gradTextFancyFontPinkDiffSmall">Coming Soon </h2> */}
 
           <Container maxWidth="xs">
