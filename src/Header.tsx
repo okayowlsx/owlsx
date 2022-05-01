@@ -41,7 +41,7 @@ export const Header = ({ candyMachine }: HeaderProps) => {
                 style={{ fontWeight: "bold" }}
               >
                 {/* ◎ {formatNumber.asNumber(candyMachine?.state.price!)} */}
-                <span className="gradTextFancyFontGreySmally">0.12 SOL</span>
+                <span className="gradTextFancyFontGreySmally">0.1 SOL</span>
               </Typography>
             </Grid>
           </Grid>
