@@ -202,7 +202,7 @@ const Home = (props: HomeProps) => {
           </h2> */}
 
           <h2 className="gradTextFancyFontPinkDiffSmalli">
-            <i>Mint delayed due to solana TPS</i>
+            <i>Mint starting at 1st May, 4PM UTC</i>
           </h2>
 
           {/* <h2 className="gradTextFancyFontPinkDiffSmall">Coming Soon </h2> */}
